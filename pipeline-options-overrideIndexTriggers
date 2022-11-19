@@ -1,1 +1,16 @@
+pipeline{
+    agent any
+    options{
+        
+    }
+    stages{
+        stage("Build Master"){
+            steps{
 
+                echo "Hello"
+
+            }
+
+        }
+    }
+}
